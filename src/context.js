@@ -14,7 +14,7 @@ const AppProvider = ({children}) =>{
     const [isLoading, setIsLoading] = useState(true);
     const [movie,setMovie] = useState([]);
     const [isError, setIsError] = useState({show:"false",msg :" "});
-    const [query,setQuery] = useState("Game of Thrones");
+    const [query,setQuery] = useState("Transformers");
 
 
     const getMovies = async(url) =>{
