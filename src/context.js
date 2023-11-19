@@ -7,7 +7,7 @@ import React, { useContext, useEffect, useState } from "react";
 const AppContext = React.createContext();
 
 // Will use .env file to protect api key 
-export const API_URL=`http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
+export const API_URL=`https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
 // Create a provider function 
 
 const AppProvider = ({children}) =>{
